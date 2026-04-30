@@ -5,6 +5,7 @@ import Home from './pages/home';
 import About from './pages/abount';
 import Product from './pages/produsk';
 import Header from './component/Header';
+import Concat from './pages/concat';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/product' element={<Product />} />
+        <Route path='/concat' element={<Concat />} />
+
       </Routes>
     </div>
   );
