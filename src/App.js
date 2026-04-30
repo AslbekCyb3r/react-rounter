@@ -9,7 +9,7 @@ import Concat from './pages/concat';
 
 function App() {
   return (
-    <div className="App bg-sky-200 h-screen">
+    <div className="App bg-sky-200 h-300">
 
       <Routes>
         <Route path='/' element={<Home />} />

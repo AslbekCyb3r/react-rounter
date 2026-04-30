@@ -2,20 +2,23 @@ import React from 'react'
 import logo from './image.png'
 
 export default function Footer() {
-    return (
-        <div className=' absolute bottom-2 w-7xl bg-white shadow-2xl flex items-center justify-between px-6 py-3 ml-40 rounded-2xl'>
+ return (
+    <footer className="bg-white shadow-lg mt-12">
+      <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
 
-            <div className='w-24'>
-                <img src={logo} alt="" />
-            </div>
-
-            <div className='flex gap-4'>
-                <h1>sayt</h1>
-                <h1>sayt</h1>
-                <h1>sayt</h1>
-
-            </div>
-
+        {/* logo */}
+        <div className="w-20">
+          <img src={logo} alt="logo" />
         </div>
-    )
+
+        {/* menu */}
+        <div className="flex gap-6 text-gray-600 font-medium">
+          <h1 className="hover:text-orange-500 cursor-pointer">Sayt</h1>
+          <h1 className="hover:text-orange-500 cursor-pointer">Menu</h1>
+          <h1 className="hover:text-orange-500 cursor-pointer">Aloqa</h1>
+        </div>
+
+      </div>
+    </footer>
+  )
 }
