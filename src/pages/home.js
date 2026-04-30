@@ -32,12 +32,9 @@ export default function Home() {
 
 
           <div className="md:w-1/2 p-8 flex flex-col justify-center">
-            <h2 className="text-3xl font-bold mb-4">
-              Mazali lahzalar shu yerdan boshlanadi! 🍔🍟
-            </h2>
-            <p className="text-gray-600">
-              Yangi tayyorlangan burgerlarimiz bilan tanishing...
-            </p>
+            <span className="text-3xl font-bold mb-4">Haqiqiy burger zavqi shu yerda! 🔥</span>
+            <h1>
+              Bir emas, bir nechta mazali tanlov! Shirali go‘shtli burgerlar, erib turgan pishloq va yangi sabzavotlar uyg‘unligi — har bir luqmada haqiqiy lazzatni his qilasiz. Yonida esa oltin rangda qarsildoq kartoshka fri va maxsus souslar — mukammal kombinatsiya!</h1>
           </div>
 
           <div className="md:w-1/2">
