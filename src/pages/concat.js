@@ -17,7 +17,7 @@ export default function Contact() {
           {/* LEFT SIDE */}
           <div>
             <h2 className="text-2xl mb-4 font-semibold">Aloqa ma'lumotlari</h2>
-            <p className="mb-2">📍 Manzil: Toshkent shahri</p>
+            <p className="mb-2">📍 Manzil: Buxoro shahri</p>
             <p className="mb-2">📞 Telefon: +998 90 777 77 77</p>
             <p className="mb-2">📧 Email: fastfood@gmail.com</p>
 
