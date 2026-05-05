@@ -4,12 +4,48 @@ import Footer from '../component/Footer'
 
 export default function Abount() {
     return (
-        <div>
+        <div className="bg-gray-100 min-h-screen flex flex-col">
             <Header active='/about' />
-            <Footer />
-            <h1 className='text-2xl mt-60 text-red-500 w-4xl ml-80'>Prezidentimiz SH.M. Mirziyoyevning 2021 - yil 21-22 yanvar kunlari Buxoro viloyatiga tashrifi davomida va Xalq deputatlari viloyat Kengashining navbatdagi tashqari sessiyasida bergan topshiriqlari bo'yicha 4 - sonli bayonining 98 - bandiga asosan tashkil etilgan.
 
-                Oliygoximizda bugungi kunda 3 ta kampus umumiy hisobda 6000 o`rinli o`quv binosi hamda 420 o`rinli talabalar yotoqxonasi mavjud. Bizda jami 16 ta bakalavr, 8 ta magistratura hamda 6 ta ta`lim shakli bo`yicha DOKTORANTURA (Psixologiya, Filologiya, Pedagogika fanlari bo'yicha) mavjud.</h1>
+            <div className="flex-grow flex items-center justify-center px-4 py-10 mt-10">
+                <div className="max-w-3xl w-full bg-white rounded-2xl shadow-lg p-8 md:p-12">
+
+                    <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-6">
+                        Biz haqimizda
+                    </h1>
+
+                    <div className="space-y-4 text-gray-600 text-base leading-relaxed">
+
+                        <p>
+                            Bizning platformamiz sizga qulay, tez va ishonchli xizmat
+                            ko‘rsatish maqsadida yaratilgan. Biz foydalanuvchilarga
+                            sifatli mahsulot va xizmatlarni oddiy va tushunarli tarzda
+                            taqdim etishga intilamiz.
+                        </p>
+
+                        <p>
+                            Biz uchun eng muhim qadriyatlar — bu ishonch, sifat va
+                            mijozlar mamnuniyati. Har bir foydalanuvchining ehtiyojini
+                            inobatga olib, doimiy ravishda xizmatlarimizni yaxshilab
+                            boramiz.
+                        </p>
+
+                        <p>
+                            Bizning jamoa zamonaviy texnologiyalar va innovatsion
+                            yondashuvlar orqali sizga eng yaxshi tajribani taqdim
+                            etishga harakat qiladi.
+                        </p>
+
+                        <p>
+                            Siz bilan birga rivojlanish — bizning asosiy maqsadimiz.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <Footer />
         </div>
     )
 }
