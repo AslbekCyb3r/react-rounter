@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../component/Header'
 import Footer from '../component/Footer'
 import burger from '../component/image/image.png'
+import Burgerlar from '../component/Bolimlar/Burgerlar'
 
 export default function Product() {
 
@@ -50,11 +51,35 @@ export default function Product() {
         }
     ]
 
+
+ 
     return (
         <div className="bg-gray-100 min-h-screen">
             <Header active='/product' />
 
             <div className="max-w-6xl mx-auto px-4 py-10">
+                <div class="flex flex-wrap gap-4 justify-center p-6 bg-gray-100 rounded-2xl shadow-lg">
+
+                    <button  class="px-5 py-3 bg-gradient-to-r from-orange-500 to-yellow-400 text-white font-semibold rounded-xl shadow-mdhover:scale-105 hover:shadow-xl transition duration-300">
+                        Burgerlar Bo‘limi
+                    </button>
+
+                    <button class="px-5 py-3 bg-gradient-to-r from-red-500 to-pink-500 text-white font-semibold rounded-xl shadow-md
+                 hover:scale-105 hover:shadow-xl transition duration-300">
+                        Lavashlar Bo‘limi
+                    </button>
+
+                    <button class="px-5 py-3 bg-gradient-to-r from-green-500 to-emerald-400 text-white font-semibold rounded-xl shadow-md
+                 hover:scale-105 hover:shadow-xl transition duration-300">
+                        Xot-doglar Bo‘limi
+                    </button>
+
+                    <button class="px-5 py-3 bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-semibold rounded-xl shadow-md
+                 hover:scale-105 hover:shadow-xl transition duration-300">
+                        Ichimliklar Bo‘limi
+                    </button>
+
+                </div>
                 <h1 className="text-3xl font-bold text-center mb-8">
                     Mahsulotlar
                 </h1>
