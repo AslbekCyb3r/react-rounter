@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from './image.png'
+import logo from '../component/image/thesheflogo.png'
 
 export default function Header({ active }) {
   return (
@@ -8,7 +8,7 @@ export default function Header({ active }) {
 
 
       <div className='flex items-center gap-3 '>
-        <img src={logo} alt="logo" className='w-10 h-10 object-cover rounded-full' />
+        <img src={logo} alt="logo" className='w-44 h-20 object-cover rounded-full' />
         <h1 className='text-xl font-bold text-gray-800'></h1>
       </div>
 
