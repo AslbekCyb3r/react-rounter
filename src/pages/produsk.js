@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../component/Header'
 import Footer from '../component/Footer'
-import burger from '../component/image/image.png'
+import burger from '../component/image/burger.png'
 import Burgerlar from '../component/Bolimlar/Burgerlar'
 
 export default function Product() {
