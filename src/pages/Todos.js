@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Header from '../component/Header'
-import Todoscard from './cardusers'
+import Todoscard from './todoscard'
 
 export default function About() {
-  const [users, setUsers] = useState([])
+  const [userss, setUserss] = useState([])
 
   async function getTodos() {
     try {
       const response = await axios.get('https://jsonplaceholder.typicode.com/todos')
-      setUsers(response.data)
+      setUserss(response.data)
     } catch (error) {
       console.log('err', error)
     }
@@ -21,10 +21,10 @@ export default function About() {
 
   return (
     <div>
-      <Header active="/Todos" />
+      <Header active="/todos" />
 
       <div className="grid grid-cols-4 gap-5 p-5 justify-items-center mt-10">
-        {users.map((item) => (
+        {userss.map((item) => (
           <Todoscard
             key={item.id}
             userId={item.userId}

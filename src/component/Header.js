@@ -17,7 +17,8 @@ export default function Header({ active }) {
         <Link to="/" className={active === "/" ? "text-blue-500 font-bold border-b-4" : ""}>Users</Link>
         <Link to="/Todos" className={active === "/Todos" ? "text-blue-500 font-bold border-b-4" : ""}>
           Todos
-        </Link>        <Link to="/product" className={active === "/product" ? "text-blue-500 font-bold border-b-4" : ""}>Product</Link>
+        </Link>        
+        <Link to="/product" className={active === "/product" ? "text-blue-500 font-bold border-b-4" : ""}>Photos</Link>
         <Link to="/concat" className={active === "/concat" ? "text-blue-500 font-bold border-b-4" : ""}>concat</Link>
 
       </div>

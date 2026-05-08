@@ -2,8 +2,8 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
 import Users from './pages/users';
-import About from './pages/Todos';
-import Product from './pages/produsk';
+import Todos from './pages/Todos';
+import Product from './pages/phodoos';
 import Header from './component/Header';
 import Concat from './pages/concat';
 
@@ -13,7 +13,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Users />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/Todos' element={<Todos />} />
         <Route path='/product' element={<Product />} />
         <Route path='/concat' element={<Concat />} />
 

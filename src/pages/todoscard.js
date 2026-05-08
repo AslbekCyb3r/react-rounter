@@ -1,3 +1,6 @@
+import React from 'react'
+
+
 export default function Todoscard(props) {
   return (
     <div className='w-[300px] rounded-2xl shadow-lg border p-5 bg-white hover:scale-105 duration-300'>
@@ -15,7 +18,7 @@ export default function Todoscard(props) {
         <p className='text-gray-700'>
           Status:{' '}
           <span className={props.completed ? 'text-green-600 font-bold' : 'text-red-600 font-bold'}>
-            {props.completed ? 'Completed ✅' : 'Not completed ❌'}
+            {props.completed}
           </span>
         </p>
 
