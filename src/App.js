@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import Users from './pages/users';
 import Todos from './pages/Todos';
-import Product from './pages/phodoos';
+// import Product from './pages/phodoos';
 import Header from './component/Header';
 import Concat from './pages/concat';
 
@@ -14,7 +14,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Users />} />
         <Route path='/Todos' element={<Todos />} />
-        <Route path='/product' element={<Product />} />
         <Route path='/concat' element={<Concat />} />
 
       </Routes>
