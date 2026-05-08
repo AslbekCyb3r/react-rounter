@@ -29,24 +29,24 @@ export default function Home() {
   }, [])
 
   return (
-<div className="flex flex-col min-h-screen bg-sky-200">
+    <div className="flex flex-col min-h-screen bg-sky-200">
 
-  <Header active='/' />
+      <Header active='/' />
 
-  <div className='grid grid-cols-4 gap-5 p-5 justify-items-center mt-10'>
-    {users.map((item) => {
-      return (
-        <Cardusers
-          key={item.id}
-          id={item.id}
-          name={item.name}
-          username={item.username}
-          email={item.email}
-        />
-      )
-    })}
-  </div>
+      <div className='grid grid-cols-4 gap-5 p-5 justify-items-center mt-10'>
+        {users.map((item) => {
+          return (
+            <Cardusers
+              key={item.id}
+              id={item.id}
+              name={item.name}
+              username={item.username}
+              email={item.email}
+            />
+          )
+        })}
+      </div>
 
-</div>
+    </div>
   )
 }
