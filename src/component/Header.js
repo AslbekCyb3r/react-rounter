@@ -14,9 +14,11 @@ export default function Header({ active }) {
 
 
       <div className='flex gap-6 text-lg font-medium'>
-        <Link to="/" className={active === "/" ? "text-blue-500 font-bold border-b-4" : ""}>Home</Link>
-        <Link to="/about" className={active === "/about" ? "text-blue-500 font-bold border-b-4" : ""}>About</Link>
-        <Link to="/product" className={active === "/product" ? "text-blue-500 font-bold border-b-4" : ""}>Product</Link>
+        <Link to="/" className={active === "/" ? "text-blue-500 font-bold border-b-4" : ""}>Users</Link>
+        <Link to="/Todos" className={active === "/Todos" ? "text-blue-500 font-bold border-b-4" : ""}>
+          Todos
+        </Link>        
+        <Link to="/product" className={active === "/product" ? "text-blue-500 font-bold border-b-4" : ""}>Photos</Link>
         <Link to="/concat" className={active === "/concat" ? "text-blue-500 font-bold border-b-4" : ""}>concat</Link>
 
       </div>
